@@ -1,0 +1,366 @@
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+/* -------------------------------Chat List------------------------- */
+
+.ce-chat-list {
+  background-color: rgb(0, 3, 15) !important;
+}
+
+.ce-chats-container {
+  background-color: rgb(0, 3, 15) !important;
+}
+
+.ce-active-chat-card {
+  background-color: rgba(255, 0, 221, 0.281) !important;
+  border: 4px solid rgba(255, 0, 221, 0.137) !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-subtitle-text {
+  color: #595959 !important;
+}
+
+.ce-chat-form-container {
+  padding-bottom: 20px !important;
+  background-color: rgb(0, 3, 15) !important;
+}
+.ce-chat-form-container > div > div > div {
+  display: none !important;
+}
+
+.ce-text-input {
+  border-radius: 6px !important;
+  color: white !important;
+  border: 1px solid #3b2a50 !important;
+  background-color: rgba(19, 25, 48, 0.986) !important;
+}
+
+.ce-primary-button {
+  border-radius: 6px !important;
+  background-color: #ff0055 !important;
+}
+
+.ce-danger-button {
+  background-color: rgba(151, 0, 0, 0.555) !important;
+  color: red !important;
+  border-radius: 22px !important;
+}
+.ce-chat-list {
+  color: rgba(255, 255, 255, 0.705) !important;
+}
+
+.ce-chats-container > div + div:hover {
+  background-color: rgb(23, 27, 43) !important;
+}
+
+/*------------------------- Chat Settings------------------------------ */
+.ce-settings {
+  background-color: rgb(0, 3, 15) !important;
+}
+
+.ce-autocomplete-input {
+  border-radius: 6px !important;
+  border: 1px solid #7300ff !important;
+}
+
+.ce-autocomplete-options {
+  border-radius: 6px !important;
+  background-color: rgba(30, 23, 51, 0.685) !important;
+}
+.ce-autocomplete-option > div {
+  background-color: rgba(30, 23, 51, 0.685) !important;
+  color: white !important;
+}
+
+.ce-chat-settings-container {
+  padding-top: 12px !important;
+}
+.ce-chat-settings-container + div {
+  background-color: rgba(30, 23, 51, 0.685) !important;
+  color: white !important;
+}
+
+.ce-chat-avatars-row {
+  display: none !important;
+}
+
+.ce-section-title .ce-people-title {
+  color: white !important;
+}
+.ce-person-text {
+  color: white !important;
+}
+
+.ce-photo-section {
+  background-color: rgba(30, 23, 51, 0.685) !important;
+  color: white !important;
+}
+.ce-photo-section:nth-child(1) {
+  background-color: rgba(30, 23, 51, 0.685) !important;
+  color: white !important;
+}
+
+#ce-add-username-input {
+  background-color: rgba(31, 0, 124, 0.288) !important;
+  color: white !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+#ce-options-drop-down:nth-child(1) {
+  background-color: rgba(30, 23, 51, 0.685) !important;
+  color: white !important;
+}
+
+.ce-chat-settings-container + div:hover {
+  background-color: rgba(17, 20, 32, 0.986) !important;
+}
+
+.ce-person-title-container:hover {
+  background-color: rgb(40, 27, 85) !important;
+}
+
+.ce-photo-title-container:hover {
+  background-color: rgb(40, 27, 85) !important;
+}
+
+#ce-options-drop-down:hover {
+  background-color: rgb(40, 27, 85) !important;
+}
+.ce-settings-container div {
+  border: none !important;
+}
+.ce-chat-unread-dot {
+  background-color: rgb(4, 253, 4) !important;
+}
+/* --------------------------Chat Feed -----------------------*/
+.main-container {
+  height: 91.5%;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: rgb(0, 3, 15);
+}
+.chat-header {
+  background-color: rgba(247, 1, 255, 0.062);
+  color: rgb(204, 199, 199);
+  height: auto;
+  display: flex;
+}
+.chat-header img {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: -37px;
+  border-radius: 30px;
+  background-image: cover;
+  border: 1px solid #ff0055;
+}
+.chat-title {
+  margin-left: 40px;
+  padding: 0%;
+  height: auto;
+}
+.chat-title h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 5px;
+}
+.chat-title p {
+  margin-top: -4px;
+  margin-left: 4px;
+  font-size: 14px;
+}
+.chat-header button {
+  margin-right: 10px;
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 0, 170);
+  background-color: rgba(36, 0, 37, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.my-block {
+  float: right;
+  width: 80%;
+  background-color: rgb(0, 3, 15);
+}
+
+.my-image-block {
+  display: flex;
+  width: 100%;
+}
+.my-image-block img {
+  float: right;
+  padding: 10px;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.my-message-block {
+  margin-top: 2px;
+  width: 100%;
+  height: auto;
+  float: right;
+  text-align: justify;
+}
+
+.my-message-block p {
+  background-color: #a02dff70;
+  float: right;
+  width: auto;
+  margin-top: 0;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.message-row {
+  float: left;
+  width: 100%;
+  display: flex;
+  margin-left: 8px;
+  column-gap: 8px;
+  box-sizing: border-box;
+}
+.message-row img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.message-block {
+  width: 100%;
+  display: inline-block;
+}
+.message {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  max-width: 60%;
+  column-gap: 5px;
+  background-color: rgb(199, 122, 230);
+  color: rgb(26, 24, 24);
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 15px;
+}
+
+.message-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0.5px solid #ff0055;
+}
+.message-form {
+  width: 100%;
+  margin-top: 10px;
+}
+.MessageForm {
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: rgb(0, 3, 15);
+}
+.msgform input {
+  height: 40px;
+  color: white;
+  width: calc(100% - 142px);
+  background-color: rgba(19, 25, 48, 0.986);
+  border: none;
+  border-radius: 20px;
+  padding: 0px 18px;
+  outline: none;
+  font-size: 15px;
+}
+.image-button {
+  cursor: pointer;
+  margin-top: -100px;
+}
+.picture-icon {
+  position: relative;
+  color: rgb(189, 183, 183);
+  top: 3px;
+  font-size: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.send-button {
+  height: 50px;
+  width: 50px;
+  background-color: #ff0055;
+
+  border: 1px solid #ff0055;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.send-icon {
+  color: white;
+  margin-left: 6px;
+  font-size: 23px;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* -----------------------------Login------------------------------ */
+.Login {
+  background-color: rgb(0, 3, 15);
+  margin-top: 150px;
+  width: auto;
+  height: auto;
+}
+.Login h1 {
+  color: rgba(193, 149, 247, 0.986);
+  font-size: 43px;
+}
+.Login p {
+  /* background-color: rgba(156, 16, 16, 0.527); */
+  color: rgba(255, 0, 0, 0.651);
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  height: 30px;
+}
+.login-form input[type="text"] {
+  width: 280px;
+  height: 35px;
+  padding-left: 20px;
+  background-color: rgba(0, 6, 31, 0.705);
+  border: 1px solid rgba(141, 5, 219, 0.527);
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 17px;
+}
+.login-form input[type="password"] {
+  width: 280px;
+  height: 35px;
+  padding-left: 20px;
+  background-color: rgba(0, 6, 31, 0.705);
+  border: 1px solid rgba(141, 5, 219, 0.527);
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 17px;
+}
+.login-form input[type="submit"] {
+  background-color: rgba(162, 0, 255, 0.726);
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
