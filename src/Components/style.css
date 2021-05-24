@@ -145,8 +145,11 @@
   background-color: rgb(0, 3, 15);
 }
 .chat-header {
-  background-color: rgba(247, 1, 255, 0.062);
+  background-color: rgba(33, 3, 44, 0.938);
   color: rgb(204, 199, 199);
+  position: absolute;
+  top: 0%;
+  width: 100%;
   height: auto;
   display: flex;
 }
@@ -172,6 +175,7 @@
   margin-top: -4px;
   margin-left: 4px;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .chat-header button {
   margin-right: 10px;
